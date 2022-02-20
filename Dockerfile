@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian
 ARG NGROK_TOKEN
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y \
